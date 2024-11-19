@@ -1,0 +1,14 @@
+C:\vsprog\lessons2\test\bin\Debug\net7.0\test.exe
+C:\vsprog\lessons2\test\bin\Debug\net7.0\test.deps.json
+C:\vsprog\lessons2\test\bin\Debug\net7.0\test.runtimeconfig.json
+C:\vsprog\lessons2\test\bin\Debug\net7.0\test.dll
+C:\vsprog\lessons2\test\bin\Debug\net7.0\test.pdb
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.AssemblyInfoInputs.cache
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.AssemblyInfo.cs
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.csproj.CoreCompileInputs.cache
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.dll
+C:\vsprog\lessons2\test\obj\Debug\net7.0\refint\test.dll
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.pdb
+C:\vsprog\lessons2\test\obj\Debug\net7.0\test.genruntimeconfig.cache
+C:\vsprog\lessons2\test\obj\Debug\net7.0\ref\test.dll
