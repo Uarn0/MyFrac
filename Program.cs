@@ -1,5 +1,6 @@
 ﻿using System;
 
+
 class Program
 {
     static void Main(string[] args)
@@ -10,22 +11,22 @@ class Program
         Console.WriteLine("frac1: " + frac1);
         Console.WriteLine("frac2: " + frac2);
 
-        Console.WriteLine("ToStringWithIntegerPart(frac2): " + MyFrac.ToStringWithIntegerPart(frac2));  
+        Console.WriteLine("ToStringWithIntegerPart(frac2): " + frac2.ToStringWithIntegerPart());
 
-        Console.WriteLine("DoubleValue(frac1): " + MyFrac.DoubleValue(frac1)); 
+        Console.WriteLine("DoubleValue(frac1): " + frac1.DoubleValue());
 
         MyFrac sum = MyFrac.Plus(frac1, frac2);
-        Console.WriteLine("sum (frac1 + frac2): " + sum);  
+        Console.WriteLine("sum (frac1 + frac2): " + sum);
 
         MyFrac difference = MyFrac.Minus(frac1, frac2);
-        Console.WriteLine("difference (frac1 - frac2): " + difference);  
+        Console.WriteLine("difference (frac1 - frac2): " + difference);
 
         MyFrac product = MyFrac.Multiply(frac1, frac2);
-        Console.WriteLine("product (frac1 * frac2): " + product);  
+        Console.WriteLine("product (frac1 * frac2): " + product);
 
         MyFrac quotient = MyFrac.Divide(frac1, frac2);
-        Console.WriteLine("quotient (frac1 / frac2): " + quotient);  
-        
+        Console.WriteLine("quotient (frac1 / frac2): " + quotient);
+
         MyFrac calcSum1Result = MyFrac.CalcSum1(5);
         Console.WriteLine("CalcSum1(5): " + calcSum1Result);
 
@@ -36,15 +37,13 @@ class Program
 
 public class MyFrac
 {
-    public long Nom;
-    public long Denom;
+    public long Nom { get; private set; }
+    public long Denom { get; private set; }
 
     public MyFrac(long nom, long denom)
     {
         if (denom == 0)
-        {
             throw new ArgumentException("Denominator cannot be zero.");
-        }
 
         if (denom < 0)
         {
@@ -73,24 +72,28 @@ public class MyFrac
         return $"{Nom}/{Denom}";
     }
 
-    public static string ToStringWithIntegerPart(MyFrac f)
+    public string ToStringWithIntegerPart()
     {
-        long integerPart = f.Nom / f.Denom;
-        long fractionalNom = f.Nom % f.Denom;
+        bool isNegative = Nom < 0;
+
+        long integerPart = Math.Abs(Nom) / Math.Abs(Denom);
+        long fractionalNom = Math.Abs(Nom) % Math.Abs(Denom);
 
         if (fractionalNom == 0)
         {
-            return integerPart.ToString();
+            return isNegative ? $"-{integerPart}" : integerPart.ToString();
         }
-
-        return integerPart == 0
-            ? $"{fractionalNom}/{f.Denom}"
-            : $"({integerPart}+{Math.Abs(fractionalNom)}/{f.Denom})";
+        else
+        {
+            return isNegative
+                ? $"-({integerPart} + {fractionalNom}/{Denom})"
+                : $"{integerPart} + {fractionalNom}/{Denom}";
+        }
     }
 
-    public static double DoubleValue(MyFrac f)
+    public  double DoubleValue()
     {
-        return (double)f.Nom / f.Denom;
+        return (double)Nom / Denom;
     }
 
     public static MyFrac Plus(MyFrac f1, MyFrac f2)
@@ -135,3 +138,4 @@ public class MyFrac
         return result;
     }
 }
+

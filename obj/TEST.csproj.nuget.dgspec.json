@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vsprog\\lessons2\\TEST\\TEST.csproj": {}
+    "C:\\Users\\Юрій\\Downloads\\MyFrac-master\\MyFrac-master\\TEST.csproj": {}
   },
   "projects": {
-    "C:\\vsprog\\lessons2\\TEST\\TEST.csproj": {
+    "C:\\Users\\Юрій\\Downloads\\MyFrac-master\\MyFrac-master\\TEST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vsprog\\lessons2\\TEST\\TEST.csproj",
+        "projectUniqueName": "C:\\Users\\Юрій\\Downloads\\MyFrac-master\\MyFrac-master\\TEST.csproj",
         "projectName": "TEST",
-        "projectPath": "C:\\vsprog\\lessons2\\TEST\\TEST.csproj",
-        "packagesPath": "C:\\Users\\nazar\\.nuget\\packages\\",
-        "outputPath": "C:\\vsprog\\lessons2\\test\\obj\\",
+        "projectPath": "C:\\Users\\Юрій\\Downloads\\MyFrac-master\\MyFrac-master\\TEST.csproj",
+        "packagesPath": "C:\\Users\\Юрій\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Юрій\\Downloads\\MyFrac-master\\MyFrac-master\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Юрій\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

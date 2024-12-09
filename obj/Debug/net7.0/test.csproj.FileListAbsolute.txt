@@ -12,3 +12,17 @@ C:\vsprog\lessons2\test\obj\Debug\net7.0\refint\test.dll
 C:\vsprog\lessons2\test\obj\Debug\net7.0\test.pdb
 C:\vsprog\lessons2\test\obj\Debug\net7.0\test.genruntimeconfig.cache
 C:\vsprog\lessons2\test\obj\Debug\net7.0\ref\test.dll
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\bin\Debug\net7.0\TEST.exe
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\bin\Debug\net7.0\TEST.deps.json
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\bin\Debug\net7.0\TEST.runtimeconfig.json
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\bin\Debug\net7.0\TEST.dll
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\bin\Debug\net7.0\TEST.pdb
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.AssemblyInfoInputs.cache
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.AssemblyInfo.cs
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.csproj.CoreCompileInputs.cache
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.dll
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\refint\TEST.dll
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.pdb
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\TEST.genruntimeconfig.cache
+C:\Users\Юрій\Downloads\MyFrac-master\MyFrac-master\obj\Debug\net7.0\ref\TEST.dll
